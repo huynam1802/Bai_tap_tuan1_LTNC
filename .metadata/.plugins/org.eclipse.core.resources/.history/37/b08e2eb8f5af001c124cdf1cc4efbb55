@@ -1,0 +1,15 @@
+package com.java.ltnc.bai2;
+
+import java.util.Scanner;
+
+public class ToaDo {
+	public static void main(String[] args) {
+		
+		double x1, y1, x2, y2;
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Moi ban nhap toa do diem thu nhat (x1, y1): ");
+		x1 = sc.nextDouble();
+		x2 = sc.nextDouble();
+		System.out.println(x1 + x2);
+	}
+}

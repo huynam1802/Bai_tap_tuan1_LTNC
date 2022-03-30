@@ -1,0 +1,7 @@
+package com.java.ltnc.bai2;
+
+public class ToaDo {
+	public static void main(String[] args) {
+		System.out.println("Hello world");
+	}
+}

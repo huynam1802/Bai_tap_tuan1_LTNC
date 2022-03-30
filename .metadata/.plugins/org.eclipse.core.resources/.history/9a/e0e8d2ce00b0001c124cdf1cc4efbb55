@@ -1,0 +1,18 @@
+
+package com.java.util;
+
+import static java.lang.Math.pow;
+
+import com.java.ltnc.bai3.Point;
+
+public class Distance {
+	public static double distance(Point a, Point b) {
+		return Math.pow((pow(a.getX() - b.getX(), 2) + pow(a.getY() - b.getY(), 2)), 0.5);
+	}
+	
+	public static void main(String[] args) {
+		Point a = new Point(-1,2);
+		Point b = new Point(3,-4);
+	    System.out.println(distance(a,b));
+	}
+}
