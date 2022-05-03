@@ -35,5 +35,36 @@ public class MainEx2 {
 		e1.setSalary(1000);
 		e1.setStartDate(new Date());
 		System.out.println(e1.toString());
+		
+		System.out.println();
+		
+		// Test class Lecturer
+		System.out.println("Test class Lecturer: ");
+		Lecturer l = new Lecturer();
+		l.setName("Vu Duc Thinh 20182806");
+		l.setAddress("Ha Noi");
+		l.setEmailAdress("vuthinh0301@gmail.com");
+		l.setPhoneNumber("0975371084");
+		l.setOffice("Marketing");
+		l.setSalary(1000);
+		l.setStartDate(new Date());
+		l.setOfficeHours(5);
+		l.setTitle("Teacher");
+		System.out.println(l.toString());
+		
+		System.out.println();
+		
+		// Test class Staff
+		System.out.println("Test class Staff: ");
+		Staff staff = new Staff();
+		staff.setName("Vu Duc Thinh 20182806");
+		staff.setAddress("Ha Noi");
+		staff.setEmailAdress("vuthinh0301@gmail.com");
+		staff.setPhoneNumber("0975371084");
+		staff.setOffice("Marketing");
+		staff.setSalary(1000);
+		staff.setStartDate(new Date());
+		staff.setRank("10");
+		System.out.println(staff.toString());
 	}
 }
