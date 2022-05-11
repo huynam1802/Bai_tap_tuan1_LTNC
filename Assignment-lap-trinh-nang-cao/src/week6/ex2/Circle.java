@@ -1,4 +1,6 @@
-package week6;
+package week6.ex2;
+
+import week6.ex1.GeometricObject;
 
 public class Circle extends GeometricObject{
 	private double radius;

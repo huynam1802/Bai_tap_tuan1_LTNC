@@ -1,4 +1,4 @@
-package week6;
+package week6.ex1;
 
 import java.util.Date;
 

@@ -1,4 +1,4 @@
-package week6;
+package week6.ex1;
 
 public class MainEx3 {
 	public static void main(String[] args) {
